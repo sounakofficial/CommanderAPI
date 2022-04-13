@@ -5,12 +5,7 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commander.API", "Commander.API\Commander.API.csproj", "{9A119D43-B21E-4561-95F1-66AAC7719422}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{6E83831B-1CC2-4892-851B-B672C65356E1}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{F6C02591-8A3C-46D6-9601-D020BCF0D312}"
-	ProjectSection(SolutionItems) = preProject
-		CI.yml = CI.yml
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commander.Test", "Commander.Test\Commander.Test.csproj", "{1F319DBF-CC30-46FA-8641-4B3D867C821D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,12 +17,13 @@ Global
 		{9A119D43-B21E-4561-95F1-66AAC7719422}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A119D43-B21E-4561-95F1-66AAC7719422}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A119D43-B21E-4561-95F1-66AAC7719422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F319DBF-CC30-46FA-8641-4B3D867C821D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F319DBF-CC30-46FA-8641-4B3D867C821D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F319DBF-CC30-46FA-8641-4B3D867C821D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F319DBF-CC30-46FA-8641-4B3D867C821D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{F6C02591-8A3C-46D6-9601-D020BCF0D312} = {6E83831B-1CC2-4892-851B-B672C65356E1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {901C868D-52DC-407E-9FD2-CDF07914D385}
